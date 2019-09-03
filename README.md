@@ -1,1 +1,0 @@
-# bradyscott.github.io
