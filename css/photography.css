@@ -1,0 +1,26 @@
+body {
+    background: url(/img/bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+  }
+
+  nav {
+      color: #ffffff;
+  }
+
+  img {
+      pointer-events: none;
+  }
+
+  h1 {
+      font-size: 3rem;
+  }
+
+  h3 {
+      font-size: 2rem;
+  }
+  .jumbotron {
+      background: none;
+  }
