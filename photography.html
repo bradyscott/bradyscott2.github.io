@@ -14,6 +14,9 @@
 
     <title>Scott Brady</title>
 
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://rawgit.com/LeshikJanz/libraries/master/Bootstrap/baguetteBox.min.css">
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
     <link rel="stylesheet" href="css/sticky-footer.css">
@@ -48,27 +51,57 @@
         </div>
     </nav>
 
-    <div class="jumbotron text-center" style="color: #ffffff">
-        <h1 class="title">Photography</h1>
-        <br><br>
-        <h3 class="subtitle">Coming Soon.</h3>
+    <div class="container gallery-container">
+        <!--        
+            <h1>Bootstrap 3 Gallery</h1>
+            <p class="page-description text-center">Fluid Layout With Overlay Effect</p>
+        -->
+
+        <div class="tz-gallery">
+    
+            <div class="row">
+    
+                <div class="col-sm-12 col-md-4">
+                    <a class="lightbox" href="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/bridge.jpg">
+                        <img src="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/bridge.jpg" alt="Bridge">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/park.jpg">
+                        <img src="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/park.jpg" alt="Park">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/tunnel.jpg">
+                        <img src="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/tunnel.jpg" alt="Tunnel">
+                    </a>
+                </div>
+                <div class="col-sm-12 col-md-8">
+                    <a class="lightbox" href="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/traffic.jpg">
+                        <img src="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/traffic.jpg" alt="Traffic">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/rails.jpg">
+                        <img src="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/rails.jpg" alt="Coast">
+                    </a>
+                </div> 
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/coast.jpg">
+                        <img src="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/coast.jpg" alt="Rails">
+                    </a>
+                </div>
+    
+            </div>
+    
+        </div>
+    
     </div>
-    <!-- <div class="title text-center m-20">
-        <h1 class="title" style="color: #ffffff">Photography</h1>
-        <br><br>
-        <h3 class="subtitle" style="color: #ffffff">Coming Soon.</h3>
-    </div> -->
-    <!-- <div class="jumbotron text-center p-4 m-0">
-        <img class="shadow" width="100px" style="border-radius: 100%" src="/img/profile.png">
-        <br> <br>
-        <h1 class="title">Scott Brady</h1>
-        <h4 class="subtitle text-muted">iOS Developer 📱 | Web Developer 🖥 | Photographer 📸 </h>
-    </div>
-    <div class="container text-center">
-        <h1 class="title">Coming Soon!</h1>
-        
-        <br><br>
-    </div> -->
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+    <script>
+        baguetteBox.run('.tz-gallery');
+    </script>
 
     <footer class="footer bg-transparent">
         <div class="container">
