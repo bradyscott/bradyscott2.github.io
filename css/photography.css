@@ -1,6 +1,5 @@
 body {
-    background: url(/img/bg.jpg) no-repeat center center fixed;
-
+    background: url(https://source.unsplash.com/random/1920x1080) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -9,6 +8,14 @@ body {
 
   nav {
       color: #ffffff;
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);   
+  }
+
+  footer {
+    color: white;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);   
   }
 
   img {
@@ -98,10 +105,10 @@ body {
     transition: 0.4s;
 }
 
-.tz-gallery .lightbox:hover:after,
+/* .tz-gallery .lightbox:hover:after,
 .tz-gallery .lightbox:hover:before {
     opacity: 1;
-}
+} */
 
 .baguetteBox-button {
     background-color: transparent !important;
