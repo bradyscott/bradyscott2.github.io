@@ -14,14 +14,15 @@ body {
   }
 
   footer {
-    color: white;
+    background-color: rgba(0,0,0,0.3);
+    color: #ffffff;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);   
   }
 
-  img, .tz-gallery {
+  /* img, .tz-gallery {
       pointer-events: none;
-  }
+  } */
 
   /* h1 {
       font-size: 3rem;
