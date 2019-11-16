@@ -54,90 +54,7 @@
         </div>
     </nav>
 
-    <div class="container gallery-container">
-        <!--        
-            <h1>Bootstrap 3 Gallery</h1>
-            <p class="page-description text-center">Fluid Layout With Overlay Effect</p>
-        -->
-
-        <div class="row justify-content-center">
-                <div class="col-md-8">
-                    <div class="row">
-                        <a href="https://unsplash.it/1200/768.jpg?image=251" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
-                            <img src="https://unsplash.it/600.jpg?image=251" class="img-fluid">
-                        </a>
-                        <a href="https://unsplash.it/1200/768.jpg?image=252" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
-                            <img src="https://unsplash.it/600.jpg?image=252" class="img-fluid">
-                        </a>
-                        <a href="https://unsplash.it/1200/768.jpg?image=253" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
-                            <img src="https://unsplash.it/600.jpg?image=253" class="img-fluid">
-                        </a>
-                    </div>
-                    <div class="row">
-                        <a href="https://unsplash.it/1200/768.jpg?image=254" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
-                            <img src="https://unsplash.it/600.jpg?image=254" class="img-fluid">
-                        </a>
-                        <a href="https://unsplash.it/1200/768.jpg?image=255" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
-                            <img src="https://unsplash.it/600.jpg?image=255" class="img-fluid">
-                        </a>
-                        <a href="https://unsplash.it/1200/768.jpg?image=256" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
-                            <img src="https://unsplash.it/600.jpg?image=256" class="img-fluid">
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-        <div class="tz-gallery">
-            <div class="row"> 
-                <!-- <div class="col-sm-12 col-md-4">
-                        <a class="lightbox" href="https://source.unsplash.com/id">
-                            <img src="https://source.unsplash.com/id" alt="">
-                        </a>
-                    </div> -->
-                <!-- <div class="col-sm-6 col-md-4">
-                    <a class="lightbox" href="https://i1.wp.com/iheartumami.com/wp-content/uploads/2019/07/Air-Fryer-Whole-Chicken-I-Heart-Umami.jpg?w=795&ssl=1">
-                        <img src="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/tunnel.jpg" alt="Tunnel">
-                    </a>
-                </div>
-                <div class="col-sm-12 col-md-4">
-                    <a class="lightbox" href="https://photos.app.goo.gl/2NAiv1miWC3YY718A">
-                        <img src="https://photos.app.goo.gl/2NAiv1miWC3YY718A" alt="reflections">
-                    </a>
-                </div>
-                <div class="col-sm-6 col-md-4">
-                    <a class="lightbox" href="https://source.unsplash.com/R8kymjjHzm0">
-                        <img src="https://source.unsplash.com/R8kymjjHzm0" alt="Radio City">
-                    </a>
-                </div>
-                <div class="col-sm-6 col-md-4">
-                    <a class="lightbox" href="https://source.unsplash.com/Q7Jii4NCatQ">
-                        <img src="https://source.unsplash.com/Q7Jii4NCatQ" alt="sunset">
-                    </a>
-                </div>
-                <div class="col-sm-12 col-md-8">
-                    <a class="lightbox" href="https://source.unsplash.com/kd2WVMlqlTU">
-                        <img src="https://source.unsplash.com/kd2WVMlqlTU" alt="skyline">
-                    </a>
-                </div>
-                <div class="col-sm-6 col-md-4">
-                    <a class="lightbox" href="https://source.unsplash.com/ZF__v9Dmpwc">
-                        <img src="https://source.unsplash.com/ZF__v9Dmpwc" alt="taxi">
-                    </a>
-                </div> 
-                <div class="col-sm-6 col-md-4">
-                    <a class="lightbox" href="https://source.unsplash.com/sP7PiyUtSF0">
-                        <img src="https://source.unsplash.com/sP7PiyUtSF0" alt="blurred skyline">
-                    </a>
-                </div> -->
-            </div>   
-        </div>   
-    </div>
     
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
-    <script>
-        baguetteBox.run('.tz-gallery');
-    </script> -->
-
 
 <footer class="footer bg-transparent" style="height: 120px">
     <div class="container">
@@ -151,11 +68,6 @@
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
-  $(document).on('click', '[data-toggle="lightbox"]', function(event) {
-    event.preventDefault();
-    $(this).ekkoLightbox();
-});
 
 </body>
 </html>
