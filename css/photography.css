@@ -6,6 +6,10 @@ body {
     -o-background-size: cover;
   }
 
+  .jumbotron {
+    background-color: rgba(0,0,0,0);
+  }
+
   nav {
       background-color: rgba(0,0,0,0.3);
       color: #ffffff;
